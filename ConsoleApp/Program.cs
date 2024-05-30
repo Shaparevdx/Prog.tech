@@ -1,4 +1,4 @@
-﻿using Classes;
+using Classes;
 
 var account = new BankAccount("<l33t>", 1000);
 Console.WriteLine($"Account {account.Number} was created for {account.Owner} with {account.Balance} initial balance.");
@@ -58,4 +58,3 @@ catch (ArgumentOutOfRangeException e)
     Console.WriteLine(e.ToString());
     return;
 }
-
